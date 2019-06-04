@@ -18,7 +18,7 @@ gem 'hiredis'
 
 # Markdown rendering
 gem 'html-pipeline'
-gem 'rouge'
+gem 'rouge', '~> 3.3.0'
 gem 'task_list'
 gem 'rinku'
 

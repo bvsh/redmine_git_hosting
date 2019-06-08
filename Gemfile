@@ -4,7 +4,8 @@ source 'https://rubygems.org'
 gem 'gitolite-rugged', git: 'https://github.com/jbox-web/gitolite-rugged.git', tag: '1.2.0'
 
 # Ruby/Rack Git Smart-HTTP Server Handler
-gem 'gitlab-grack', git: 'https://github.com/bvsh/grack.git'
+gem 'gitlab-grack', '~> 2.0.0', git: 'https://github.com/jbox-web/grack.git', require: 'grack', branch: 'fix_gemfile'
+# gem 'gitlab-grack', git: 'https://github.com/bvsh/grack.git'
 
 # HAML views
 gem 'haml-rails'

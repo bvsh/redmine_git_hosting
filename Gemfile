@@ -12,7 +12,9 @@ gem 'gitolite-rugged', git: 'https://github.com/jbox-web/gitolite-rugged.git', t
 
 ## Redmine 2.x
 ## Ruby/Rack Git Smart-HTTP Server Handler (use our own repository because Redmine still uses Rails 3 and Rack 1.4)
-gem 'gitlab-grack', git: 'https://github.com/bvsh/grack.git'
+# Ruby/Rack Git Smart-HTTP Server Handler
+gem 'gitlab-grack', '~> 2.0.0', git: 'https://github.com/jbox-web/grack.git', require: 'grack', branch: 'fix_gemfile'
+# gem 'gitlab-grack', git: 'https://github.com/bvsh/grack.git'
 # gem 'redcarpet', '~> 3.3.2'
 
 # HAML views

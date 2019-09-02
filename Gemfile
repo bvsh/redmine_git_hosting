@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 # Gitolite Admin repository management
-gem 'gitolite-rugged', git: 'https://github.com/bvsh/gitolite-rugged', ref: 'c7ae2c6'
+gem 'gitolite-rugged', git: 'https://github.com/bvsh/gitolite-rugged', tag: '1.2.0'
 
 # Ruby/Rack Git Smart-HTTP Server Handler
 gem 'gitlab-grack', '~> 2.0.0', git: 'https://github.com/jbox-web/grack.git', require: 'grack', branch: 'fix_gemfile'
